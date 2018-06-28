@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 youtube = "https://www.youtube.com/results?search_query="
 
 def get_address(keyword):
-    print(keyword)
     query = youtube + keyword + "+playlist"
     browser = webdriver.Chrome()
     browser.get(query)
@@ -14,4 +13,4 @@ def get_address(keyword):
 
     for link in soup.findAll('a', {'class': 'yt-simple-endpoint style-scope ytd-playlist-renderer'}):
        href = link.get('href')
-       print(href)
+       return href
