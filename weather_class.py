@@ -1,7 +1,5 @@
 from weather import Weather, Unit
 from datetime import datetime
-import requests
-from bs4 import BeautifulSoup
 from googletrans import Translator
 
 # TODO translation
