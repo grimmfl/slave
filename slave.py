@@ -4,19 +4,25 @@ import crawler
 from gtts import gTTS
 import pyglet
 import time
+from weather_class import weather
 
 class Slave:
     def __init__(self):
         self.listener = sr.Recognizer()
+        self.is_awake = False
 
     def menu(self):
-        self.test()
         input = self.listen().upper()
+        print(input)
 
-        if "SPIELE MUSIK" in input:
+        if "ABIGAIL" in input:
+            self.is_awake = True
+        if "SPIELE MUSIK" in input or "SPIEL MUSIK" in input and self.is_awake:
             self.music()
-        elif "STOPPE MUSIK" in input:
+        elif "STOPPE MUSIK" in input and self.is_awake:
             self.stop_music()
+        elif "WETTER" in input and self.is_awake:
+            self.speak(weather())
 
     def listen(self):
         with sr.Microphone() as source:
@@ -32,15 +38,16 @@ class Slave:
         try:
             os.system("ping www.google.de -n 1")
         except:
-            print("No connection, try again!")
+            self.speak("Keine Verbindung möglich, bitte stell eine Internetverbindung her!")
             return False
         return True
 
     def music(self):
         isConnected = self.is_connected()
         if isConnected:
-            print("Welche Musik?")
+            self.speak("Welche Musik willst du hören?")
             music = self.listen()
+            print(music)
             address = crawler.get_address(music)
             os.system('start firefox.exe "https://www.youtube.com/' + address + '"')
         else:
@@ -49,13 +56,14 @@ class Slave:
     def stop_music(self):
         os.system("taskkill /IM firefox.exe")
 
-    def test(self):
-        tts = gTTS(text="Hallo Felix wie geht es dir?", lang="de")
-        tts.save("hello.mp3")
-        voice = pyglet.media.load("hello.mp3", streaming=False)
+    def speak(self, text):
+        tts = gTTS(text=text, lang="de")
+        tts.save("temp.mp3")
+        voice = pyglet.media.load("temp.mp3", streaming=False)
         voice.play()
         time.sleep(voice.duration)
-        os.remove("hello.mp3")
+        os.remove("temp.mp3")
+
 
 
 
