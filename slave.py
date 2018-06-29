@@ -2,7 +2,6 @@ import speech_recognition as sr
 import os
 import crawler
 from gtts import gTTS
-import pyglet
 import time
 
 class Slave:
@@ -12,6 +11,7 @@ class Slave:
     def menu(self):
         self.test()
         input = self.listen().upper()
+        print(input)
 
         if "SPIELE MUSIK" in input:
             self.music()
@@ -52,9 +52,7 @@ class Slave:
     def test(self):
         tts = gTTS(text="Hallo Felix wie geht es dir?", lang="de")
         tts.save("hello.mp3")
-        voice = pyglet.media.load("hello.mp3", streaming=False)
-        voice.play()
-        time.sleep(voice.duration)
+        os.system("mpg123 hello.mp3")
         os.remove("hello.mp3")
 
 
