@@ -15,7 +15,7 @@ class Slave:
         input = self.listen().upper()
         print(input)
 
-        if "ABIGAIL" in input:
+        if "MARTIN" in input:
             self.is_awake = True
         if "SPIELE MUSIK" in input or "SPIEL MUSIK" in input and self.is_awake:
             self.music()
@@ -38,7 +38,7 @@ class Slave:
         try:
             os.system("ping www.google.de -n 1")
         except:
-            self.speak("Keine Verbindung möglich, bitte stell eine Internetverbindung her!")
+            self.speak("Keine Verbindung möglich, bitte stelle eine Internetverbindung her!")
             return False
         return True
 
