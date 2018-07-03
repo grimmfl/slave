@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87a43a04-9a3c-459c-a722-9e6a0af84006" name="Default" comment="">
+    <list default="true" id="87a43a04-9a3c-459c-a722-9e6a0af84006" name="Default" comment="#v0.2 added translation feature">
+      <change afterPath="$PROJECT_DIR$/image_crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_crawler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slave.py" beforeDir="false" afterPath="$PROJECT_DIR$/slave.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/weather_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/apiclient/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/google_api_python_client-1.7.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/google_api_python_client-1.7.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/google_api_python_client-1.7.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/google_api_python_client-1.7.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/google_api_python_client-1.7.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/_auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/_helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/channel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/discovery.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/discovery_cache/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/discovery_cache/appengine_memcache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/discovery_cache/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/discovery_cache/file_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/http.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/mimeparse.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/sample_tools.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/googleapiclient/schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules-0.2.1.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/pem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/pem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1155.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1155.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1157.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1157.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1901.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1901.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1902.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1902.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1905.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc1905.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2251.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2251.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2314.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2314.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2315.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2315.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2437.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2437.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2459.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2459.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2511.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2511.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2560.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc2560.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3279.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3279.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3280.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3280.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3281.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3281.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3412.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3412.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3414.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3414.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3447.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3447.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3852.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc3852.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc4210.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc4210.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc4211.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc4211.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc5208.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc5208.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc5280.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc5280.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc5652.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc5652.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc6402.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pyasn1_modules/rfc6402.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,33 +74,36 @@
     <session id="-1823320220">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="18" />
-          <entry key="py" value="3194" />
+          <entry key="dummy" value="31" />
+          <entry key="py" value="4136" />
+          <entry key="txt" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="3194" />
+          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="Python" value="4136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/slave.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="299">
+              <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -62,14 +123,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/music_crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="25" selection-end-line="15" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather_class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="17">
+              <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
-                <marker date="1530302289615" expanded="true" signature="180:222" ph="..." />
-                <marker date="1530302289615" expanded="true" signature="691:696" ph="..." />
+                <marker date="1530303241711" expanded="true" signature="134:176" ph="..." />
+                <marker date="1530303241711" expanded="true" signature="645:650" ph="..." />
               </folding>
             </state>
           </provider>
@@ -92,8 +173,9 @@
       <list>
         <option value="$PROJECT_DIR$/crawler.py" />
         <option value="$PROJECT_DIR$/weather.py" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/weather_class.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/image_crawler.py" />
         <option value="$PROJECT_DIR$/slave.py" />
       </list>
     </option>
@@ -116,6 +198,11 @@
             <path>
               <item name="sklave" type="b2602c69:ProjectViewProjectNode" />
               <item name="sklave" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sklave" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sklave" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,6 +233,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.slave">
+    <configuration name="image_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sklave" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image_crawler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="slave" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sklave" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,27 +267,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/slave.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="sklave" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\sklave\weather_class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -209,7 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="sklave" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,7 +308,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Python\sklave\weather_class.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -253,18 +340,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.slave" />
-      <item itemvalue="Python.test (1)" />
-      <item itemvalue="Python.weather" />
       <item itemvalue="Python.test (2)" />
       <item itemvalue="Python.weather_class" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.image_crawler" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.slave" />
+        <item itemvalue="Python.image_crawler" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.weather_class" />
         <item itemvalue="Python.test (2)" />
-        <item itemvalue="Python.weather" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +366,21 @@
       <option name="presentableId" value="Default" />
       <updated>1528110020333</updated>
     </task>
+    <task id="LOCAL-00001" summary="#v0.2 added translation feature">
+      <created>1530302874992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530302874992</updated>
+    </task>
+    <task id="LOCAL-00002" summary="#v0.2 added translation feature">
+      <created>1530303338244</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530303338244</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -294,12 +396,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2312961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2312961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,6 +418,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#v0.2 added translation feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="#v0.2 added translation feature" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/selenium/webdriver/common/service.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -331,10 +437,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler.py">
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slave.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="299">
+          <caret line="68" column="36" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="25" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -343,22 +469,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/weather_class.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        <state relative-caret-position="17">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <marker date="1530302289615" expanded="true" signature="180:222" ph="..." />
-            <marker date="1530302289615" expanded="true" signature="691:696" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slave.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1530303241711" expanded="true" signature="134:176" ph="..." />
+            <marker date="1530303241711" expanded="true" signature="645:650" ph="..." />
           </folding>
         </state>
       </provider>
