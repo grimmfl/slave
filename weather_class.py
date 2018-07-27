@@ -2,14 +2,13 @@ from weather import Weather, Unit
 from datetime import datetime
 from googletrans import Translator
 
-# TODO translation
+# TODO klassifizierung, wetter gut schlecht mittelmäßig
 
-def weather():
+def weather(loc="Berlin"):
     weather = Weather(unit=Unit.CELSIUS)
-    location = weather.lookup_by_location("freigericht")
+    location = weather.lookup_by_location(loc)
     forecasts = location.forecast
     print(forecasts)
-    text = ""
     for forecast in forecasts:
         print(forecast.date)
         if forecast.date == datetime.now().strftime("%d %b %Y"):
